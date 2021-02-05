@@ -1,0 +1,67 @@
+.fa-photo {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.fa-photo:hover{
+    transition: 0.3s;
+    color: white;
+}
+
+.imgRedonda {
+    width:65px;
+    height:65px;
+    border-radius: 50%;
+}
+
+.imgRedondaPublication{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.imgRedondaFollowed{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.publicar-btn{
+    margin-top:5px; 
+    background-color: #49274A; 
+    border-color: #49274A;
+}
+
+.publicar-btn:hover{
+    transition: 0.3s;
+    background-color: whitesmoke; 
+    color: #49274A;
+    border-color: #49274A;
+}
+
+.img-post{
+    text-align: right;
+    width: auto;
+    height: auto;
+}
+
+.card{
+    margin-top: 20px;
+}
+
+.card-header, .card-footer{
+    color: white;
+    background-color: #94618E;
+}
+
+.card-body{
+    background-color: #F8EEE7;
+}
+
+a{
+    text-decoration: none !important;
+    color: white;
+}

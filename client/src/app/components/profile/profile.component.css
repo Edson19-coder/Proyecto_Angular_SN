@@ -1,0 +1,25 @@
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.imgRedonda {
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+}
+
+.follows, .followeds {
+    margin: 5px;
+    color: #000000;
+}
+
+.follows:hover, .followeds:hover {
+    transition: 0.3s;
+    color: whitesmoke !important;
+}
+
+hr {
+    border-width: 2px;
+    border-color: #F8EEE7;
+}

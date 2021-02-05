@@ -1,0 +1,84 @@
+<div class="container">
+    <nav class="navbar navbar-light bg-light" style="background-color: transparent !important;">
+      <div class="container-fluid">
+        <a class="navbar-brand" [routerLink]="['/']" >{{title}}</a>
+        <div class="d-flex">
+          
+          <ul class="nav justify-content-start" *ngIf="identity">
+            
+            <li class="nav-item">
+              <a class="nav-link pointer" [routerLink]="['/']" [routerLinkActive]="['active']">
+                <span class="fas fa-home"></span>
+                Home
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link pointer" [routerLink]="['/users/1']" [routerLinkActive]="['active']">
+                <span class="fas fa-users"></span>
+                Users
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link pointer" [routerLink]="['/messages']" [routerLinkActive]="['active']">
+                <span class="fas fa-comment"></span>
+                Messages
+              </a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a href="" class="nav-link pointer dropdown-toggle" data-toggle="dropdown" data-bs-display="static" aria-expanded="true">
+                {{ identity.name }}
+              </a>
+
+            <ul class="dropdown-menu" style="position: absolute !important;">
+              
+              <li class="nav-item">
+                <a class="nav-link pointer" [routerLink]="['/profile', identity._id]">
+                  <span class="fas fa-address-card"></span>
+                  Mi perfil
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link pointer" [routerLink]="['/settings']">
+                  <span class="fas fa-cog"></span>
+                  Settings
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link pointer" (click)="logout()">
+                  <span class="fas fa-sign-out-alt"></span>
+                  Logout
+                </a>
+              </li>
+
+            </ul>
+
+           </li>
+          </ul>
+
+          <ul class="nav justify-content-start" *ngIf="!identity">
+            <li class="nav-item">
+              <a class="nav-link" [routerLink]="['/login']" [routerLinkActive]="['active']">
+                <span class="fas fa-sign-in-alt"></span>
+                Singup
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" [routerLink]="['/register']" [routerLinkActive]="['active']">
+                <span class="fas fa-sign-out-alt"></span>
+                Register
+              </a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+</div>
+
+<router-outlet></router-outlet>

@@ -1,0 +1,9 @@
+.container h1{
+	text-align: center;
+}
+
+.imgRedonda {
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+}

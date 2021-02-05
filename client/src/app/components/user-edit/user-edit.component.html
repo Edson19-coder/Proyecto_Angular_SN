@@ -1,0 +1,53 @@
+<div class="container">
+	<h1>{{title}}</h1>
+	<div class="col-6 mx-auto" style="padding-top: 20px">
+		
+		<div class="alert alert-success" *ngIf="status == 'success'">
+			Data updated successfully.
+		</div>
+		<div class="alert alert-danger" *ngIf="status == 'error'">
+			Data updated not successfully.
+		</div>
+
+		<form #userEditForm = "ngForm" (ngSubmit)="onSubmit(userEditForm)" class="col-12">
+			
+			<div *ngIf="user.image" class="col-12 text-center mx-auto">
+            	<img class="imgRedonda" src="{{ url + 'get-image-user/' + user.image }}">
+        	</div>
+
+			<p>
+				<label>Upload your avatar</label>
+				<br>
+				<input type="file" placeholder="Upload Image" (change)="fileChangeEvent($event)" />
+			</p>
+			
+			<p>
+				<label>Nombre</label>
+				<input type="text" name="name" #name="ngModel" [(ngModel)]="user.name" required class="form-control">
+				<span *ngIf="!name.value && name.touched">The name is required.</span>
+			</p>
+
+			<p>
+				<label>Last Name</label>
+				<input type="text" name="surname" #surname="ngModel" [(ngModel)]="user.surname" required class="form-control">
+				<span *ngIf="!surname.value && surname.touched">The lastname is required.</span>
+			</p>
+
+			<p>
+				<label>Nick</label>
+				<input type="text" name="nick" #nick="ngModel" [(ngModel)]="user.nick" required class="form-control">
+				<span *ngIf="!nick.value && nick.touched">The nick is required.</span>
+			</p>
+
+			<p>
+				<label>Email</label>
+				<input type="email" name="email" #email="ngModel" [(ngModel)]="user.email" required class="form-control">
+				<span *ngIf="!email.value && email.touched">The email is required.</span> 		
+			</p>
+
+			<div class="col-12 text-right">
+				<input type="submit" value="Guardar" class="btn btn-success" [disabled]="!userEditForm.form.valid" />
+			</div>
+		</form>
+	</div>
+</div>

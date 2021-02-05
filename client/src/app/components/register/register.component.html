@@ -1,0 +1,48 @@
+<div class="container">
+	<div class="col-lg-6">
+	<h1>{{title}}</h1>
+
+	<div class="alert alert-success" *ngIf="status == 'success' ">User successfully registered, 
+		<a [routerLink]="['/login']">Access your account at</a> 
+	</div>
+
+	<div class="alert alert-danger" *ngIf="status == 'error' ">
+		The account could not be created, please try other details.
+	</div>	
+
+	<form #registerForm="ngForm" (ngSubmit)="onSubmit(registerForm)" class="col-lg-10">
+		<p>
+			<label>Name</label>
+			<input type="text" name="name" #name="ngModel" [(ngModel)]="user.name" class="form-control" required/>
+			<span *ngIf="!name.valid && name.touched" style="color: red">*The name is required
+			</span>
+		</p>
+
+		<p>
+			<label>Surname</label>
+			<input type="text" name="surname" #surname="ngModel" [(ngModel)]="user.surname" class="form-control" required />
+			<span *ngIf="!surname.valid && surname.touched" style="color: red">*Surname is required</span>
+		</p>
+
+		<p>
+			<label>Nick</label>
+			<input type="text" name="nick" #nick="ngModel" [(ngModel)]="user.nick" class="form-control" required />
+			<span *ngIf="!nick.valid && nick.touched" style="color: red">*Nick is required</span>
+		</p>
+
+		<p>
+			<label>Email</label>
+			<input type="email" name="email" #email="ngModel" [(ngModel)]="user.email" class="form-control" required />
+			<span *ngIf="!email.valid && email.touched" style="color: red">*Email is required</span>
+		</p>
+
+		<p>
+			<label>Password</label>
+			<input type="password" name="password" #password="ngModel" [(ngModel)]="user.password" class="form-control" required />
+			<span *ngIf="!password.valid && password.touched" style="color: red">*Password is required</span>
+		</p>
+
+		<input type="submit" value="{{title}}" class="btn btn-success" [disabled]="!registerForm.form.valid" />
+	</form>
+</div>
+</div>

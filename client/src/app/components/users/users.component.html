@@ -1,0 +1,58 @@
+<div class="container">
+    <div class="col-6">
+        <div class="people">
+
+            <div *ngFor="let user of users">
+                <div class="card" *ngIf="identity._id != user._id">
+                    <div class="col-12 card-body">
+                        <div class="row">
+                            <a [routerLink]="['/profile', user._id]" class="col-8">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img class="imgRedonda" src="{{ url + 'get-image-user/' + user.image }}"
+                                            *ngIf="user.image" />
+                                        <img class="imgRedonda" src="assets/default-picture.png" *ngIf="!user.image" />
+                                    </div>
+                                    <div class="col-8">
+                                        <p>
+                                            {{user.name + ' ' + user.surname}}
+                                        </p>
+                                        <p class="nickname">
+                                            {{user.nick}}
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                            <div class="col-4" style="margin-top: 15px;">
+                                <button *ngIf="follows.indexOf(user._id) < 0 " class="btn follow" 
+                                (click)="followUser(user._id)">
+                                <i class="fas fa-plus-circle" style="margin-right: 5px;"></i>Follow
+                                </button>
+
+                                <button *ngIf="follows.indexOf(user._id) >= 0 " class="btn following"
+                                        (mouseenter)="mouseEnter(user._id)"
+                                        (mouseleave)="mouseLeave(user._id)"
+                                        (click)="unfollowUser(user._id)">
+
+                                    <span *ngIf="user._id == followUserOver; else following">
+                                        <i class="fas fa-minus-circle" style="margin-right: 5px;"></i>Unfollow
+                                    </span>
+                                    <ng-template #following>
+                                        <i class="fas fa-check-circle" style="margin-right: 5px;"></i>Following
+                                    </ng-template>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PAGINACIÓN -->
+            <ul class="pagination pull-right">
+                <li *ngIf="page > 1"><a [routerLink]="['users', prevPage]">Prev</a></li>
+                <li *ngIf="pages != page"><a [routerLink]="['users', nextPage]">Next</a></li>
+            </ul>
+        </div>
+    </div>
+</div>

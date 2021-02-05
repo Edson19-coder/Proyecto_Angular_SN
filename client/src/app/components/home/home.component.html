@@ -1,0 +1,109 @@
+<div class="container col-lg-12" *ngIf="identity">
+	<div class="row">
+		<div class="col-3" style="height: 600px; border: 5px solid #94618E; background-color: #F8EEE7;">
+			<hr>
+			<h2 style="text-align: center;">Followed</h2>
+			<hr>
+
+			<div class="card">
+				<div class="card-body">
+					<img src='https://dreamingbytes.com/wp-content/uploads/2014/09/dott.jpg'
+						class='imgRedondaFollowed' /> Edson Lugo
+				</div>
+			</div>
+		</div>
+
+		<div class="col-9" style="height: auto; border: 5px solid #94618E; background-color: #F8EEE7;">
+
+			<!-- Create publication -->
+			<form #createPublicationForm="ngForm" (ngSubmit)="onSubmit(createPublicationForm)">
+				<div class="container">
+					<div class="col-12" style="padding-top: 20px;">
+						<div class="col-12" style="background-color: #94618E; padding: 10px; border-radius: 10px;">
+							<div class="row">
+								<div class="col-2" style="text-align: center;">
+									<img src="{{ url + 'get-image-user/' + identity.image }}" *ngIf="identity.image"
+										class='imgRedonda' />
+									<img src="assets/default-picture.png" *ngIf="!identity.image" class='imgRedonda' />
+								</div>
+								<div class="col-10">
+									<textarea name="text" #text="ngModel" [(ngModel)]="publication.text"
+										class="form-control" placeholder="What's in your mind?"></textarea>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-2"></div>
+								<div class="col-10">
+									<div class="row">
+										<div class="col-6" style=" line-height: 40px;">
+											<label style="color: whitesmoke;">Agregar:</label>
+											<label for="uploadImagePublication" style="margin-left: 10px;">
+												<i class="fa fa-photo img-upload"></i>
+											</label>
+											<input type="file" placeholder="Upload Image" id="uploadImagePublication"
+												style="display: none;">
+										</div>
+										<div class="col-6" style="text-align: right;">
+											<input type="submit" value="Publicar" class="btn btn-primary publicar-btn"
+												[disabled]="!createPublicationForm.form.valid">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</form>
+			<!-- /Create publication -->
+
+			<!-- Body of publications -->
+			<div class="container" style="padding: 20px 50px 50px 50px;">
+
+				<div *ngFor="let publication of publications">
+
+					<!-- Post with image and text -->
+					<div class="card">
+						<div class="card-header">
+							<a [routerLink]="['/profile', publication.user._id]">
+								<div class="col-6">
+									<img src="{{ url + 'get-image-user/' + publication.user.image }}"
+										*ngIf="publication.user.image" class='imgRedondaPublication' />
+									<img src="assets/default-picture.png" *ngIf="!publication.user.image"
+										class='imgRedondaPublication' />
+									{{ publication.user.name + ' ' + publication.user.surname}}
+								</div>
+							</a>
+						</div>
+						<div class="card-body">
+
+							{{ publication.text }}
+
+							<div *ngIf="publication.file != 'null' ">
+								<div *ngIf="publication.text">
+									<hr>
+								</div>
+								<div class="col-12 img-post">
+									<img src="{{ url + 'get-image-pub/' + publication.file }}" class="card-img-bottom"
+										alt="...">
+								</div>
+							</div>
+
+						</div>
+						<div class="card-footer" style="text-align: right;">
+							2 days ago
+						</div>
+					</div>
+					<!-- /Post with image and text -->
+
+				</div>
+
+			</div>
+			<!-- /Body of publications -->
+
+		</div>
+	</div>
+</div>
+
+<div *ngIf="!identity">
+	<h1>{{ title }} not login</h1>
+</div>

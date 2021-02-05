@@ -1,0 +1,35 @@
+<div class="container">
+	<div class="col-lg-6">
+	<h1>{{title}}</h1>
+
+	<div class="alert alert-danger" *ngIf = "status == 'fail'">
+		Account not found or not registered
+	</div>
+
+	<div class="alert alert-danger" *ngIf = "status == 'error'">
+		Service error
+	</div>
+
+	<div class="alert alert-success" *ngIf = "status == 'success'">
+		Logged
+	</div>	
+
+	<form #loginForm="ngForm" (ngSubmit)="onSubmit(loginForm)" class="col-lg-10">
+		
+		<p>
+			<label>Email</label>
+			<input type="email" name="email" #email="ngModel" [(ngModel)]="user.email" class="form-control" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
+			<span *ngIf="!email.valid && email.touched" style="color: red">*The email is required
+			</span>
+		</p>
+
+		<p>
+			<label>Password</label>
+			<input type="password" name="password" #password="ngModel" [(ngModel)]="user.password" class="form-control" required />
+			<span *ngIf="!password.valid && password.touched" style="color: red">*Password is required</span>
+		</p>		
+
+		<input type="submit" value="{{title}}" class="btn btn-success" [disabled]="!loginForm.form.valid" />
+	</form>
+</div>
+</div>

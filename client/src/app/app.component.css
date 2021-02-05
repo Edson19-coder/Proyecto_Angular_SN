@@ -1,0 +1,31 @@
+
+.navigation .navbar{
+	background-color: #e3f2fd !important;
+}
+
+.pointer{
+	cursor: pointer;
+}
+
+.dropdown-menu{
+	position: absolute !important;
+	padding-left: 10px;
+}
+
+li {
+    list-style: none;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover,a.active{
+    transition: 0.3s;
+    color: white;
+}
+
+.dropdown-menu a:hover{
+	transition: 0.3s;
+	color: #94618E;
+}

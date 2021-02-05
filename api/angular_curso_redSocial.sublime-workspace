@@ -1,0 +1,476 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pa",
+				"padding-left\tproperty"
+			],
+			[
+				"nav-",
+				"nav-item"
+			],
+			[
+				"_ro",
+				"_router"
+			],
+			[
+				"get",
+				"gettoken"
+			],
+			[
+				"ge",
+				"gettoken"
+			],
+			[
+				"aler",
+				"alert-danger"
+			],
+			[
+				"e",
+				"errorMessage"
+			],
+			[
+				"H",
+				"HttpHeaders"
+			],
+			[
+				"ht",
+				"_http"
+			],
+			[
+				"User",
+				"UserService"
+			],
+			[
+				"Htt",
+				"HttpClient"
+			],
+			[
+				"bak",
+				"background-color\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"mari",
+				"margin\tproperty"
+			],
+			[
+				"path",
+				"path_file"
+			],
+			[
+				"findB",
+				"findByIdAndUpdate"
+			],
+			[
+				"file",
+				"file_path"
+			],
+			[
+				"fi",
+				"file_ext"
+			],
+			[
+				"ex",
+				"ext_split"
+			],
+			[
+				"fil",
+				"file_split"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"md",
+				"md_upload"
+			],
+			[
+				"file_",
+				"file_path"
+			],
+			[
+				"us",
+				"userUpdate"
+			],
+			[
+				"getU",
+				"getUsers"
+			],
+			[
+				"use",
+				"users"
+			],
+			[
+				"se",
+				"send"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"u",
+				"unix"
+			],
+			[
+				"b",
+				"bcrypt"
+			],
+			[
+				"Me",
+				"MessageSchema"
+			],
+			[
+				"Fll",
+				"followed"
+			],
+			[
+				"Publ",
+				"PublicationSchema"
+			],
+			[
+				"body",
+				"bodyParser"
+			],
+			[
+				"pro",
+				"Promise"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/client/src/app/app.component.html",
+			"settings":
+			{
+				"buffer_size": 2082,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\n.navigation .navbar{\n\tbackground-color: #e3f2fd !important;\n}\n\n.pointer{\n\tcursor: pointer;\n}\n\n.dropdown-menu{\n\tposition: absolute !important;\n\tpadding-left: 10px;\n}",
+			"file": "/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/client/src/app/app.component.css",
+			"file_size": 177,
+			"file_write_time": 132544657490591945,
+			"settings":
+			{
+				"buffer_size": 165,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/client",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/client/src",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/client/src/app",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/client/src/assets"
+	],
+	"file_history":
+	[
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/client/src/app/app.component.css",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/client/src/app/app.component.ts",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/client/src/app/app.component.html",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/client/src/app/components/login/login.component.ts",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/client/src/app/app-routing.module.ts",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/client/src/app/components/home/home.component.ts",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/client/src/app/components/home/home.component.html",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/client/src/app/components/login/login.component.html",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/client/src/app/services/user.service.ts",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/client/src/app/components/register/register.component.html",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/client/src/app/components/login/login.component.css",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/client/src/app/components/register/register.component.ts",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/api/app.js",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/client/src/app/services/global.ts",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/client/src/assets/styles.css",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/client/tsconfig.app.json",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/client/src/app/app.module.ts",
+		"/C/Users/edson/Desktop/desarrollar-una-red-social-con-javascript-angular-y-nodejs-mongodb-master/client/src/app/components/login/login.component.ts",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/client/src/app/models/user.ts",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/client/src/app/models/message.ts",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/client/src/app/models/publication.ts",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/client/src/app/models/follow.ts",
+		"/C/Users/edson/Desktop/desarrollar-una-red-social-con-javascript-angular-y-nodejs-mongodb-master/client/src/app/app-routing.module.ts",
+		"/C/Users/edson/Desktop/desarrollar-una-red-social-con-javascript-angular-y-nodejs-mongodb-master/client/src/app/app.component.html",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/client/src/app/components/login/login.component.spec.ts",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/client/src/index.html",
+		"/C/Users/edson/Desktop/desarrollar-una-red-social-con-javascript-angular-y-nodejs-mongodb-master/client/src/app/app.component.css",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/client/angular.json",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/client/package.json",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/api/routes/user.js",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/api/controllers/user.js",
+		"/C/Users/edson/Desktop/Practicas Activas/Angular/AprendiendoAngular/package.json",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/api/uploads/users/Z_UjjAcbl1-Gj8m1WzhPEaCY.jpg",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/api/uploads/users/dHgPUllDkFucN2_U5r9-KL88.jpg",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/api/middlewares/authenticated.js",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/Codigo_de_Error.txt",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/api/services/jwt.js",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/api/index.js",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/api/models/message.js",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/api/models/publication.js",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/api/models/follow.js",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/api/models/user.js",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/api/node_modules/app.js",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/api/package.json",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/api/package-lock.json",
+		"/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/package.json",
+		"/C/Users/edson/Documents/Notas/6to Semestre/Interface y experiencia de usuarios en web/Ejercicios/8.-Get-Content-and-Attributes/attr.html",
+		"/C/Users/edson/Desktop/product-tour-master/index.html",
+		"/C/Users/edson/Desktop/product-tour-master/scss/style.scss",
+		"/C/Users/edson/Desktop/style.css",
+		"/C/Users/edson/Documents/Codigo/PW01/Proyecto_PW01/css/ajustes.css",
+		"/C/Users/edson/Documents/Codigo/PW01/Proyecto_PW01/ajustes.html",
+		"/C/Users/edson/Documents/Codigo/PW01/Proyecto_PW01/css/register.css",
+		"/C/Users/edson/Documents/Codigo/PW01/Proyecto_PW01/login.html",
+		"/C/Users/edson/Documents/Codigo/Proyectos Web/NEW PROYECTS/04/indexbootstrap.html",
+		"/C/Users/edson/Desktop/Proyectos Web/NEW PROYECTS/Home Beta/css/main.css",
+		"/C/Users/edson/Desktop/Proyectos Web/NEW PROYECTS/Home Beta/index.html"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"mongoosePaginate"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/client/src/app/app.component.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2082,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								952,
+								952
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 486.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "/C/Users/edson/Desktop/Practicas Activas/angular_curso_redSocial/client/src/app/app.component.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 165,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								109,
+								109
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.440740740741,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "angular_curso_redSocial.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 300.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

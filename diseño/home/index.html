@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+		crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body style="background-color: #94618E;">
+	<div class="container">
+		<nav class="navbar navbar-light bg-light" style="background-color: transparent !important;">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">SOCIAL NETWORK</a>
+				<div class="d-flex">
+					<li class="nav-item">
+						<a class="nav-link" aria-current="page" href="#"><i class="fa fa-home"></i> Home</a>
+					</li>
+
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+							data-bs-toggle="dropdown" aria-expanded="false">
+							<i class="fa fa-user"></i> User
+						</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<li><a class="dropdown-item" href="#">Action</a></li>
+							<li><a class="dropdown-item" href="#">Another action</a></li>
+							<li><a class="dropdown-item" href="#">Something else here</a></li>
+						</ul>
+					</li>
+				</div>
+			</div>
+		</nav>
+	</div>
+	<div class="container col-lg-12">
+		<div class="row">
+			<div class="col-3" style="height: 600px; border: 5px solid #94618E; background-color: #F8EEE7;">
+				<hr>
+				<h2 style="text-align: center;">Followed</h2>
+				<hr>
+				
+				<div class="card">
+					<div class="card-body">
+						<img src='https://dreamingbytes.com/wp-content/uploads/2014/09/dott.jpg'
+									class='imgRedondaFollowed' /> Edson Lugo
+					</div>
+				</div>
+			</div>
+
+			<div class="col-9" style="height: auto; border: 5px solid #94618E; background-color: #F8EEE7;">
+
+				<!-- Create publication -->
+				<form action="">
+					<div class="container">
+						<div class="col-12" style="padding-top: 20px;">
+							<div class="col-12" style="background-color: #94618E; padding: 10px; border-radius: 10px;">
+								<div class="row">
+									<div class="col-2" style="text-align: center;">
+										<img src='https://dreamingbytes.com/wp-content/uploads/2014/09/dott.jpg'
+											class='imgRedonda' />
+									</div>
+									<div class="col-10">
+										<textarea class="form-control" placeholder="What's in your mind?"></textarea>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-2"></div>
+									<div class="col-10">
+										<div class="row">
+											<div class="col-6" style=" line-height: 40px;">
+												<label style="color: whitesmoke;">Agregar:</label>
+												<a href="#" style="margin: 10px;"><i class="fa fa-photo"></i></a>
+											</div>
+											<div class="col-6" style="text-align: right;">
+												<input type="button" value="Publicar"
+													class="btn btn-primary publicar-btn">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</form>
+				<!-- /Create publication -->
+
+				<!-- Body of publications -->
+				<div class="container" style="padding: 20px 50px 50px 50px;">
+				
+					<!-- Post only text  -->
+					<div class="card">
+						<div class="card-header">
+							<div class="col-6">
+								<img src='https://dreamingbytes.com/wp-content/uploads/2014/09/dott.jpg'
+									class='imgRedondaPublication' /> Edson Lugo
+							</div>
+						</div>
+						<div class="card-body">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi aut deserunt unde dignissimos
+							ex eaque provident fuga aspernatur, repudiandae quasi quos numquam est ducimus labore?
+							Facilis ex fugit incidunt suscipit.
+						</div>
+						<div class="card-footer" style="text-align: right;">
+							2 days ago
+						</div>
+					</div>
+					<!-- /Post only text  -->
+
+					<!-- Post only image -->
+					<div class="card">
+						<div class="card-header">
+							<div class="col-6">
+								<img src='https://dreamingbytes.com/wp-content/uploads/2014/09/dott.jpg'
+									class='imgRedondaPublication' /> Edson Lugo
+							</div>
+						</div>
+						<div class="card-body">
+
+							<div class="col-12 img-post">
+								<img src="https://media.metrolatam.com/2020/11/28/13-9db76c099344bbdc295677b1af96d54e-1200x600.jpg" class="card-img-bottom" alt="...">
+							</div>
+
+						</div>
+						<div class="card-footer" style="text-align: right;">
+							2 days ago
+						</div>
+					</div>
+					<!-- /Post only image -->
+
+					<!-- Post with image and text -->
+					<div class="card">
+						<div class="card-header">
+							<div class="col-6">
+								<img src='https://dreamingbytes.com/wp-content/uploads/2014/09/dott.jpg'
+									class='imgRedondaPublication' /> Edson Lugo
+							</div>
+						</div>
+						<div class="card-body">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi aut deserunt unde dignissimos
+							ex eaque provident fuga aspernatur, repudiandae quasi quos numquam est ducimus labore?
+							Facilis ex fugit incidunt suscipit.
+							<hr>
+
+							<div class="col-12 img-post">
+								<img src="https://esports.as.com/2020/06/12/riot-games/Omen-VALORANT_1363673655_407370_1440x600.png" class="card-img-bottom" alt="...">
+							</div>
+
+						</div>
+						<div class="card-footer" style="text-align: right;">
+							2 days ago
+						</div>
+					</div>
+					<!-- /Post with image and text -->
+
+				</div>
+				<!-- /Body of publications -->
+
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

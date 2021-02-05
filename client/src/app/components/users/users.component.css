@@ -1,0 +1,30 @@
+.imgRedonda{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+a { 
+    text-decoration: none;
+    color: black;
+}
+
+.card {
+    margin: 10px;
+    background-color: #F8EEE7;
+}
+
+.follow , .following:hover{
+    transition: .3s;
+    background-color: #F8EEE7;
+    border-color: #94618E;
+    color: #94618E;
+}
+
+.follow:hover, .following {
+    transition: .3s;
+    background-color: #94618E;
+    border-color: #F8EEE7;
+    color: #F8EEE7;
+}
